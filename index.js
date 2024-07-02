@@ -23,6 +23,7 @@ const rolePrefixMap = {
     '': '[PASS+++] ',
     '': '[NoVIP] ',
     '': '[MASTER] ',
+//                    <--- Add Here More Prefix!
 };
 
     // LIST TEMPLATE
