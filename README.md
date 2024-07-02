@@ -2,6 +2,11 @@
 
 This Discord bot automatically updates user nicknames based on assigned roles in a Discord server. It adds specified prefixes to nicknames when users gain certain roles and removes them when those roles are removed.
 
+# READ THIS !!!
+This bot is only for `Discord.JS@13`
+how to install this version:
+`npm install discord.js@13`
+
 ## How It Works
 
 The bot listens for `guildMemberUpdate` events, which trigger whenever a member's roles are modified. It then checks for added or removed roles compared to the member's previous state and updates the nickname accordingly.
